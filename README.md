@@ -1,5 +1,5 @@
 # Tiny Corp Laptop Tracker
-Using AI and without any hand coding build a lightweight assest management system with features listed below.
+Using your AI toolset of choice and without any hand coding build a lightweight assest management system with features listed below.
 
 ## Features
 ### User
