@@ -1,9 +1,10 @@
 # Tiny Corp Laptop Tracker
-Build a lightweight assest management system where a user can do the following:
+Using AI and without any hand coding build a lightweight assest management system where a user can do the following:
 
 ## Features
 ### User
 As a service desk employee I want to:
+- login with simple username and password
 - create a user
 - assign them a device
 - manufacture year, model number, brand, cpu, ram should be tracked
