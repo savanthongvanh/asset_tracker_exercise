@@ -12,7 +12,7 @@ As a service desk employee I want to:
 - disable user
 
 ### Reports
-As a service desk manager I want to be able to quick see the following:
+As a service desk manager I want to be able to quickly see the following:
 - average age of devices out
 - list of users and their devices
 - list of devices approaching EOL
