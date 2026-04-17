@@ -22,3 +22,7 @@ Needs to fit into existing system that:
 - Uses JWT auth tokens
 - Uses relational database
 - Uses RESTful services
+
+## Goals of the exercise
+- Build a system without hand coding
+- Understand candidates maturity level in using and interacting with AI
