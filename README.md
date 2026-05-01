@@ -1,5 +1,26 @@
 # Tiny Corp Laptop Tracker
-Using your AI toolset of choice and without any hand coding build a lightweight assest management system with features listed below.
+Using your AI toolset of choice and without any hand coding, build a lightweight asset management system with the features listed below.
+
+## Starter app
+This repository starts as a minimal Spring Boot API. It intentionally includes only a hello endpoint and an Actuator health check so candidates can expand it during the interview.
+
+### Requirements
+- Java 17
+- The included Gradle wrapper
+
+### Run the app
+```sh
+JAVA_HOME=$(/usr/libexec/java_home -v 17) ./gradlew bootRun
+```
+
+### Test the app
+```sh
+JAVA_HOME=$(/usr/libexec/java_home -v 17) ./gradlew test
+```
+
+### Starter endpoints
+- `GET /api/hello`
+- `GET /actuator/health`
 
 ## Features
 ### User
@@ -8,7 +29,7 @@ As a service desk employee I want to:
 - create a user
 - assign them a device
 - manufacture year, model number, brand, cpu, ram should be tracked
-- mark the device as returned when user separtes from company
+- mark the device as returned when user separates from company
 - disable user
 
 ### Reports
@@ -26,3 +47,6 @@ Needs to fit into existing system that:
 ## Goals of the exercise
 - Build a system without hand coding
 - Understand candidates maturity level in using and interacting with AI
+
+## Candidate work
+JWT authentication, relational persistence, user management, device assignment, returned-device workflows, disabled-user workflows, and reports are not implemented in the starter app. These requirements are the intended exercise work.
